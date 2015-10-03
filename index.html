@@ -11,9 +11,9 @@
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8"> -->
     <script src="app/bower_components/jquery/dist/jquery.js"></script>
-     <!-- Main JS -->
-   <script type="text/javascript" src="app/javascripts/main.js"></script>
-   <!-- Theme for js -->
+    <!-- Main JS -->
+    <script type="text/javascript" src="app/javascripts/main.js"></script>
+    <!-- Theme for js -->
     <script type="text/javascript" src="app/javascripts/theme.js"></script>
     <!-- analytics js -->
     <script type="text/javascript" src="app/javascripts/analytics.js"></script>
@@ -21,12 +21,44 @@
     <title>9 Billion</title>
 </head>
 <div class="transparentlayer">
-<body>
-  <div class="wrapper">
-  <div id="log">#</div>
-  <div class="arrow animated bounce"></div>
-    </div>
-    <div class="footer">Content for footer</div>
-</body>
+
+    <body>
+        <div class="wrapper">
+            <div id="log">#</div>
+            <div class="arrow animated bounce"></div>
+        </div>
+        <div class="footer">
+            <div class="perfect">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="twttrfeed">
+                <a class="twitter-timeline" href="https://twitter.com/jabSquared" data-widget-id="650192203923394560">Tweets by @jabSquared</a>
+                <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                </script>
+            </div>
+        </div>
+    </body>
 </div>
+
 </html>
