@@ -144,3 +144,12 @@ footer ul, li, a {
 
 
 }
+.ios {
+  margin-left: 80%;
+  margin-top: -42px;
+}
+.android{
+  margin-top: -42px;
+  margin-left: 50%;
+  margin-left: 40%;
+}
