@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="app/stylesheets/main.css">
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8"> -->
+    <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <script src="app/bower_components/jquery/dist/jquery.js"></script>
     <!-- Main JS -->
     <script type="text/javascript" src="app/javascripts/main.js"></script>
@@ -37,35 +37,50 @@
 
             <div class="arrow animated bounce"></div>
         </div>
+
         <div class="footer">
-            <div class="col0">
-                <ul>
-                    <li>Hello0</li>
-                </ul>
-            </div>
-            <div class="col1">
-                <ul>
-                    <li>Hello</li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="twitterfeed"><a class="twitter-timeline" href="https://twitter.com/jabSquared" data-widget-id="650192203923394560" width="400" height="300">Tweets by @jabSquared</a>
+                            <script>
+                                ! function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0],
+                                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                                    if (!d.getElementById(id)) {
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = p + "://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                }(document, "script", "twitter-wjs");
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footlist">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Sponsers</a></li>
+                                <li><a href="#">Team</a></li>
+                              
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="twttrfeed">
-                <a class="twitter-timeline" href="https://twitter.com/jabSquared" data-widget-id="650192203923394560" width="400" height="300">Tweets by @jabSquared</a>
-                <script>
-                    ! function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0],
-                            p = /^http:/.test(d.location) ? 'http' : 'https';
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + "://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, "script", "twitter-wjs");
-                </script>
-            </div>
+
         </div>
-    </body>
+
+
+
+</div>
+</body>
 </div>
 
 </html>

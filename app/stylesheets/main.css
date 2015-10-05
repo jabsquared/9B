@@ -54,7 +54,7 @@ body.tight .wrapper {
     border-color: black;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 footer ul, li, a {
     color: white;
@@ -152,23 +152,9 @@ footer ul, li, a {
     margin-left: 50%;
     margin-left: 40%;
 }
-.col0 ul {
-  margin-left: 25%;
-  margin-bottom: -100px;
-
-}
-.col1 ul {
-  margin-left: 50%;
-
-}
-
-.col0 li {
-  margin-left: 25%;
+.footlist li a {
   font-size: 30px;
-
-}
-.col1 li {
-  margin-left: 50%;
-  font-size: 30px;
+  color: white;
+  text-decoration: none;
 
 }
