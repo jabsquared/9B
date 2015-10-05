@@ -1,10 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../app/fonts/ufonts.com_impact.ttf'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype') /* IE6-IE8 */
+}
 body, html {
     max-width: 100%;
     overflow-x: hidden;
 }
 body {
     font: 100% "Helvetica Neue", sans-serif;
+    font-family: 'MyWebFont', Fallback, sans-serif;
     text-align: center;
     background: url("../images/collage9bill.jpg");
     text-rendering: optimizelegibility;
