@@ -1,15 +1,53 @@
 @font-face {
-  font-family: 'MyWebFont';
-  src: url('../app/fonts/ufonts.com_impact.ttf'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype') /* IE6-IE8 */
+    font-family: localFont;
+    src: url(../font/nunito/Nunito-Regular.ttf);
+}
+
+/* cyrillic */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P'), local('PressStart2P-Regular'), url(http://fonts.gstatic.com/s/pressstart2p/v4/8Lg6LX8-ntOHUQnvQ0E7ozT1DHLc-lgcGofyQSe5eyY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P'), local('PressStart2P-Regular'), url(http://fonts.gstatic.com/s/pressstart2p/v4/8Lg6LX8-ntOHUQnvQ0E7owWe3iFntbc1RMxbGEkS-xE.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P'), local('PressStart2P-Regular'), url(http://fonts.gstatic.com/s/pressstart2p/v4/8Lg6LX8-ntOHUQnvQ0E7o6SkDmgNrBPNFeI4cxdj3Ko.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P'), local('PressStart2P-Regular'), url(http://fonts.gstatic.com/s/pressstart2p/v4/8Lg6LX8-ntOHUQnvQ0E7o69WAFmVxfVhVkWhl-QDeAk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 body, html {
     max-width: 100%;
     overflow-x: hidden;
 }
 body {
-    font: 100% "Helvetica Neue", sans-serif;
-    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-family: 'localFont', Fallback, sans-serif;
     text-align: center;
     background: url("../images/collage9bill.jpg");
     text-rendering: optimizelegibility;
@@ -145,21 +183,42 @@ footer ul, li, a {
     margin-bottom: 60px;
     padding-top: 70px;
 }
-.contain {
-    padding-top: 275px;
-}
+
 .ios {
-    margin-left: 80%;
-    margin-top: -42px;
+    padding: 10px;
 }
 .android {
-    margin-top: -42px;
-    margin-left: 50%;
-    margin-left: 40%;
+    padding: 10px;
 }
 .footlist li a {
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.stores {
+    padding-top: 5%;
+    align-items: center;
+}
+.container {
+    margin: auto;
+    font-family: 'localFont';
+    padding-top: 40vh;
+}
+.container h1 {
+    font-family: 'localFont';
+    /*font-family: 'Press Start 2P', cursive;*/
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 1px 1px 0 #D3D3D3, 4px 5px 0 #D3D3D3, 5px 7px 0 #D3D3D3, 6px 8px 0 #D3D3D3, 7px 10px 0 #D3D3D3, 8px 11px 0 #D3D3D3, 9px 13px 0 #D3D3D3;
+    display: inline-block;
+    /* W3C */
+    transform: scale(0.99, 0.72);
+    /* Safari and Chrome */
+    -webkit-transform: scale(0.99, 0.72);
+    /* Firefox */
+    -moz-transform: scale(0.99, 0.72);
+    /* IE 9 */
+    -ms-transform: scale(0.99, 0.72);
+    /* Opera */
+    -o-transform: scale(0.99, 0.72);
 }
