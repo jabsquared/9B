@@ -194,7 +194,7 @@ footer ul, li, a {
     font-size: 30px;
     color: white;
     text-decoration: none;
-  
+
 }
 .stores {
     padding-top: 5%;
@@ -203,23 +203,35 @@ footer ul, li, a {
 .container {
     margin: auto;
     font-family: 'localFont';
-    padding-top: 40vh;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
 }
 .container h1 {
-    font-family: 'localFont';
-    /*font-family: 'Press Start 2P', cursive;*/
-    color: #fff;
-    font-size: 100px;
-    text-shadow: 1px 1px 0 #D3D3D3, 4px 5px 0 #D3D3D3, 5px 7px 0 #D3D3D3, 6px 8px 0 #D3D3D3, 7px 10px 0 #D3D3D3, 8px 11px 0 #D3D3D3, 9px 13px 0 #D3D3D3;
-    display: inline-block;
-    /* W3C */
-    transform: scale(0.99, 0.72);
-    /* Safari and Chrome */
-    -webkit-transform: scale(0.99, 0.72);
-    /* Firefox */
-    -moz-transform: scale(0.99, 0.72);
-    /* IE 9 */
-    -ms-transform: scale(0.99, 0.72);
-    /* Opera */
-    -o-transform: scale(0.99, 0.72);
-}
+  color: #fff;
+    font-size: 80px;
+    transform: rotate(10deg) skew(-10deg);
+    -webkit-transform: rotate(10deg) skew(-10deg);
+    -moz-transform: rotate(10deg) skew(-10deg);
+    -o-transform: rotate(10deg) skew(-10deg);
+    -ms-transform: rotate(10deg) skew(-10deg);
+    text-shadow: 1px 1px 0 #23DB2A,
+      2px 2px 0 #23DB2A,
+      3px 4px 0 #23DB2A,
+      4px 5px 0 #23DB2A,
+      5px 7px 0 #23DB2A,
+      6px 8px 0 #23DB2A,
+      7px 10px 0 #23DB2A,
+      8px 11px 0 #23DB2A,
+      9px 13px 0 #23DB2A,
+      10px 14px 0 #23DB2A,
+      11px 16px 0 #23DB2A,
+      12px 17px 0 #23DB2A,
+      13px 19px 0 #23DB2A,
+      14px 20px 0 #23DB2A,
+      15px 22px 0 #23DB2A,
+      16px 23px 0 #23DB2A,
+      17px 25px 0 #23DB2A,
+      18px 26px 0 #23DB2A,
+      19px 28px 0 #23DB2A,
+      20px 29px 0 #23DB2A;
+    }
