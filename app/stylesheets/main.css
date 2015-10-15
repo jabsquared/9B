@@ -96,7 +96,7 @@ body.tight .wrapper {
     border-style: transparent;
     border-color: black;
     background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 22px 54px rgba(0, 0, 0, 0.5);
     margin-bottom: 60px;
 }
 footer ul, li, a {
@@ -209,11 +209,13 @@ footer ul, li, a {
 .container h1 {
   color: #fff;
     font-size: 80px;
-    transform: rotate(10deg) skew(-10deg);
-    -webkit-transform: rotate(10deg) skew(-10deg);
-    -moz-transform: rotate(10deg) skew(-10deg);
-    -o-transform: rotate(10deg) skew(-10deg);
-    -ms-transform: rotate(10deg) skew(-10deg);
+
+    -webkit-transform: rotate(10deg) skew(-10deg) scale(.99,.72);
+    -moz-transform: rotate(10deg) skew(-10deg) scale(.99,.72);
+    -o-transform: rotate(10deg) skew(-10deg) scale(.99,.72);
+    -ms-transform: rotate(10deg) skew(-10deg) scale(.99,.72);
+    transform: rotate(10deg) skew(-10deg) scale(.99,.72);
+
     text-shadow: 1px 1px 0 #23DB2A,
       2px 2px 0 #23DB2A,
       3px 4px 0 #23DB2A,
@@ -234,4 +236,5 @@ footer ul, li, a {
       18px 26px 0 #23DB2A,
       19px 28px 0 #23DB2A,
       20px 29px 0 #23DB2A;
+
     }
